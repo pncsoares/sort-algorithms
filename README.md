@@ -4,9 +4,14 @@ This repository aims to demonstrate sort algorithms in multiple languages.
 
 # Which types of sort algorithms exists?
 
+## With code examples
+
+| Algorithm | Information | Technology |
+| -- | -- | -- |
+| Quick sort | [Go to detail 📄](SortAlgorithms/SortAlgorithms/QuickSort/README.md) | C# |
+
 ## To do
 
-- [ ] Quick Sort
 - [ ] Selection Sort
 - [ ] Bubble Sort
 - [ ] Recursive Bubble Sort
