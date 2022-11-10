@@ -9,10 +9,10 @@ This repository aims to demonstrate sort algorithms in multiple languages.
 | Algorithm | Information | Technology |
 | -- | -- | -- |
 | Quick sort | [Go to detail 📄](SortAlgorithms/SortAlgorithms/QuickSort/README.md) | C# |
+| Insertion sort | [Go to detail 📄](SortAlgorithms/SortAlgorithms/InsertionSort/README.md) | C# |
 
 ## To do
 
-- [ ] Selection Sort
 - [ ] Bubble Sort
 - [ ] Recursive Bubble Sort
 - [ ] Insertion Sort
