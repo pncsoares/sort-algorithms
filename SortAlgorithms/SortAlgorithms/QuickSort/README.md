@@ -1,6 +1,6 @@
-# Quick sort
+# Quick Sort
 
-QuickSort is a Divide and Conquer algorithm
+Quick sort is a Divide and Conquer algorithm
 
 ## How quick sort works?
 
@@ -16,4 +16,4 @@ The key process in quickSort is partition().
 Target of partitions is, given an array and an element x of array as pivot, put x at its correct position in sorted array and put all smaller elements (smaller than x) before x, and put all greater elements (greater than x) after x.
 All this should be done in linear time.
 
-![](../../../public/quick-sort.png)
+![quick-sort](../../../public/quick-sort.png)

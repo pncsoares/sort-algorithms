@@ -6,7 +6,7 @@ namespace SortAlgorithms.Tests;
 
 public class TestQuickSort
 {
-    private readonly QuickSortAlgorithm _sut = new QuickSortAlgorithm(); 
+    private readonly QuickSortAlgorithm _sut = new(); 
     
     [Fact]
     public void Test_QuickSort_UnorderedArray()
