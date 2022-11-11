@@ -15,7 +15,6 @@ This repository aims to demonstrate sort algorithms in multiple languages.
 ## To do
 
 - [ ] Recursive Bubble Sort
-- [ ] Insertion Sort
 - [ ] Recursive Insertion Sort
 - [ ] Merge Sort
 - [ ] Iterative Merge Sort
