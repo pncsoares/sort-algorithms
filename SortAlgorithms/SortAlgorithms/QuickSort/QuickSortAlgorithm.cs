@@ -1,3 +1,4 @@
+using SortAlgorithms.Helpers;
 using SortAlgorithms.Interfaces;
 
 namespace SortAlgorithms.QuickSort;
@@ -39,15 +40,15 @@ public class QuickSortAlgorithm : ISort
                 j--;
             }
 
-            if (i <= j)
+            if (i > j)
             {
-                var tmp = array[i];
-                array[i] = array[j];
-                array[j] = tmp;
-
-                i++;
-                j--;
+                continue;
             }
+            
+            ArrayHelper.Swap(array, i, j);
+
+            i++;
+            j--;
         }
 
         if (left < j)

@@ -23,11 +23,39 @@ public class TestQuickSort
     }
     
     [Fact]
+    public void Test_QuickSort_UnorderedArray_WithDuplicates()
+    {
+        // Arrange
+        var inputArray = new[] { 1, 5, 5, 0, 34, 34, 3, 9 };
+        var expectedArray = new[] { 0, 1, 3, 5, 5, 9, 34, 34 };
+
+        // Act
+        var outputArray = _sut.Sort(inputArray);
+
+        // Assert
+        Assert.Equal(expectedArray, outputArray);
+    }
+    
+    [Fact]
     public void Test_QuickSort_OrderedArray()
     {
         // Arrange
         var inputArray = new[] { 0, 1, 3, 5, 9, 34 };
         var expectedArray = new[] { 0, 1, 3, 5, 9, 34 };
+
+        // Act
+        var outputArray = _sut.Sort(inputArray);
+
+        // Assert
+        Assert.Equal(expectedArray, outputArray);
+    }
+    
+    [Fact]
+    public void Test_QuickSort_OrderedArray_WithDuplicates()
+    {
+        // Arrange
+        var inputArray = new[] { 0, 1, 3, 5, 5, 9, 34, 34 };
+        var expectedArray = new[] { 0, 1, 3, 5, 5, 9, 34, 34 };
 
         // Act
         var outputArray = _sut.Sort(inputArray);
