@@ -2,7 +2,6 @@ using SortAlgorithms.Interfaces;
 
 namespace SortAlgorithms.InsertionSort;
 
-/// <inheritdoc />
 public class InsertionSortAlgorithm : ISort
 {
     public int[] Sort(int[] array)

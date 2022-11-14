@@ -3,7 +3,6 @@ using SortAlgorithms.Interfaces;
 
 namespace SortAlgorithms.QuickSort;
 
-/// <inheritdoc />
 public class QuickSortAlgorithm : ISort
 {
     public int[] Sort(int[] array)
