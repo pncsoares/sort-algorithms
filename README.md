@@ -11,6 +11,7 @@ This repository aims to demonstrate sort algorithms in multiple languages.
 | Quick sort | [Go to detail 📄](SortAlgorithms/SortAlgorithms/QuickSort/README.md) | C# |
 | Insertion sort | [Go to detail 📄](SortAlgorithms/SortAlgorithms/InsertionSort/README.md) | C# |
 | Bubble sort | [Go to detail 📄](SortAlgorithms/SortAlgorithms/BubbleSort/README.md) | C# |
+| Heap sort | [Go to detail 📄](SortAlgorithms/SortAlgorithms/HeapSort/README.md) | C# |
 
 ## To do
 
@@ -19,7 +20,6 @@ This repository aims to demonstrate sort algorithms in multiple languages.
 - [ ] Merge Sort
 - [ ] Iterative Merge Sort
 - [ ] Iterative Quick Sort
-- [ ] Heap Sort
 - [ ] Counting Sort
 - [ ] Radix Sort
 - [ ] Bucket Sort
