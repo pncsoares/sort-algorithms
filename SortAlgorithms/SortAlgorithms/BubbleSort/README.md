@@ -9,3 +9,7 @@ Bubble sort is the simplest of all sorting algorithms. It swaps pairs until all 
 3. Repeat as many times as needed
 
 ![bubble-sort](../../../public/bubble-sort.png)
+
+# Big-O
+
+$O(n^2)$

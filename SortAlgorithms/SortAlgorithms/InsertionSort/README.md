@@ -9,3 +9,7 @@ A good way to understand insertion sort is to imagine that you are playing a car
 3. Insert the new item in the empty index
 
 ![insertion-sort](../../../public/insertion-sort.png)
+
+# Big-O
+
+$O(n^2)$

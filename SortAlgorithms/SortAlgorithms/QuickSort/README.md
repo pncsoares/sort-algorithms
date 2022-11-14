@@ -17,3 +17,7 @@ Target of partitions is, given an array and an element x of array as pivot, put 
 All this should be done in linear time.
 
 ![quick-sort](../../../public/quick-sort.png)
+
+# Big-O
+
+$O(n log(n))$
